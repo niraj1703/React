@@ -1,0 +1,228 @@
+#root {
+    max-width: 1280px;
+    /* margin: 0 auto; */
+    /* padding: 2rem; */
+    /* text-align: center; */
+
+}
+
+.main-header {
+    height: 50px;
+    /* background-color: aqua; */
+    padding-bottom: 9px;
+}
+
+.header {
+    display: flex;
+    height: 50px;
+    width: full;
+    /* background-color: rgb(197, 30, 30); */
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+}
+
+.header-logo {
+    height: auto;
+    /* padding: 1em; */
+    padding: 5px;
+    margin: 3px;
+    will-change: filter;
+    transition: filter 300ms;
+
+    .image {
+        height: 2em;
+        width: fit-content
+    }
+}
+
+.header-login {
+    border: none;
+    cursor: pointer;
+}
+
+.store-collection {
+    width: full;
+    display: flex;
+    text-align: centre;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFFFFFFF;
+    padding: 10px;
+
+    img {
+        height: 2em;
+
+        span {
+            justify-content: center;
+
+        }
+    }
+}
+
+.hero-collection {
+    img {
+        width: 1260px;
+        padding: 5px;
+        margin: 5px;
+    }
+}
+
+.h2 {
+    height: 300px;
+    background-color: black;
+
+    .card-collection {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        justify-content: space-evenly;
+
+        .card {
+            width: 172px;
+            height: 224px;
+            text-align: center;
+            border-radius: 5px;
+            border: 2px solid black;
+
+            .images {
+                width: 142px;
+                height: 142px;
+                margin: 15px;
+                border-radius: 2px;
+            }
+        }
+    }
+}
+
+.fashion {
+    height: 300px;
+    background-color: black;
+
+    .fashion-collection {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        justify-content: space-evenly;
+
+        .card {
+            width: 172px;
+            height: 224px;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 5px;
+
+            .images {
+                width: 142px;
+                height: 142px;
+                margin: 15px;
+                border-radius: 2px;
+            }
+        }
+    }
+}
+
+.greed {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+
+    /* background-color: aqua; */
+    .p-4-card {
+        text-align: center;
+        /* background-color: black; */
+        background-color: black;
+        border-radius: 8px;
+
+
+
+        .saller-collection {
+            background-color: black;
+            justify-items: center;
+            border-radius: 8px;
+            /* margin: -40px; */
+            width: 400px;
+            height: 480px;
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+            justify-content: space-around;
+        }
+
+        .card {
+            width: 180px;
+            height: 230px;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 5px;
+
+            .images {
+                width: 160px;
+                height: 172px;
+                margin: 5px;
+                border-radius: 2px;
+            }
+        }
+
+    }
+
+    .niraj {
+        height: 541px;
+        width: 820px;
+    }
+
+    .niraj1 {
+        width: 400px;
+        height: 550px;
+    }
+}
+
+.footer {
+
+    height: 500px;
+
+    .footer-2 {
+        border-top: 1px solid black;
+
+        padding-top: 100px;
+        margin: 30px;
+    }
+
+    .section {
+
+        border-right: 1px solid black;
+        width: 620px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+.header-logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.header-logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+/* .card {
+  padding: 2em;
+} */
+
+.read-the-docs {
+    color: #888;
+}

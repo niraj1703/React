@@ -4,13 +4,13 @@ import './App.css'
 function App() {
 
   const [counter, setCounter] = useState(15)
-
+ 
   //let counter = 15
 
   const addvalue = () => {
 
-    if (counter == 20)
-      return 20;
+    if (counter == 35000)
+      return 35000;
     // console.log("value added", counter);
     // counter = counter + 1
     setCounter(counter + 1)
@@ -22,8 +22,8 @@ function App() {
   }
 
   const decreasevalue = () => {
-    if (counter == 15)
-      return 15;
+    if (counter == 0)
+      return 0;
     setCounter(counter - 1)
     // setCounter(prevCounter => prevCounter + 1)
     // setCounter(prevCounter => prevCounter + 1)
