@@ -18,8 +18,7 @@ import './App.css'
         });
         const [resume, setResume] = useState("");
         const [url, setUrl] = useState();
-        const [selectedOption, setSelectedOption] =
-            useState("");
+        const [selectedOption, setSelectedOption] = useState("");
         const [about, setAbout] = useState("");
     
         const handleSubmit = (e) => {
