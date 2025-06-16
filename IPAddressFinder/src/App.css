@@ -1,0 +1,18 @@
+/* App.js */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.card {
+  background: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
